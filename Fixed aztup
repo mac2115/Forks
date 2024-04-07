@@ -40,7 +40,6 @@ syn.create_comm_channel = function() -- credit to MirayXS or whoever made Synaps
 	comm_channels[id] = event
 	return id, event
 end
-s
 syn.get_comm_channel = function(id)
 	local channel = comm_channels[id]
 	if not channel then
